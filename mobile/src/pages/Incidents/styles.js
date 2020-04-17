@@ -11,7 +11,8 @@ export default StyleSheet.create({
     header: {
         flexDirection: 'row',
         justifyContent: 'space-between', 
-        alignItems: 'center'
+        alignItems: 'center',
+        
     },
     
     headerText: {
@@ -45,6 +46,7 @@ export default StyleSheet.create({
         padding: 24,
         borderRadius: 8,
         backgroundColor: '#fff',
+        marginBottom: '5%',
     },
 
     incidentProperty: {
@@ -63,13 +65,15 @@ export default StyleSheet.create({
     detailsButton: {
         flexDirection: 'row',
         justifyContent: 'space-between',
-        alignItems: 'center'
+        alignItems: 'center',
+        
     },
 
     detailsButtonText: {
         color: '#e02041',
         fontSize: 15,
-        fontWeight: 'bold'
+        fontWeight: 'bold',
+        
     }
 
 
